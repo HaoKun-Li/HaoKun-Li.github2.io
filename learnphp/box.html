@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Box</title>
+   <!-- <style type="text/css">
+        .class1{
+            border: 1px solid black;
+            background-color: chocolate;
+            padding-top: 100px;
+            padding-left: 100px;
+            background-clip: content-box;
+            margin-top: 50px;
+        }
+    </style>-->
+    <style type="text/css">
+        .div1{
+            text-align: center;    
+        }
+        .img1{
+            margin-top: 100px;
+            width: 256px;
+        }
+        html:hover .img1{
+            animation-name: img;
+            animation-delay: 500ms;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        }
+        @keyframes img {
+            to{
+                width: 64px;
+                margin-top: 10px;
+            }
+        }
+        .p1{
+            font-family: 微软雅黑;
+            font-size: 40px;
+            text-shadow: 1px 2px 2px deepskyblue;
+            opacity: 1;
+        }
+        html:hover .p1{
+            transition-delay: 500ms;
+            transition-duration: 1s;
+            font-family: 微软雅黑;
+            font-size: 40px;
+            text-shadow: 1px 2px 2px deepskyblue;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="div1">
+    <img class="img1" src="01bbe359678728a8012193a37e8afe.jpg@1280w_1l_2o_100sh.png"/>
+    <p class="p1">测试测试</p>
+</div>
+</body>
+</html>

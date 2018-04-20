@@ -1,0 +1,40 @@
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.menu1{
+    background-image: url("image/填充色.png");
+    background-repeat: no-repeat;
+    width: 100px;
+    float: left;
+    margin-right: 1px;
+}
+
+li{
+    background-color: bisque;
+
+}
+
+a{
+    text-decoration: no;
+    padding-left: 30px;
+    width: 80px;
+}
+
+.menu1 a{
+    color: white;
+    background-image: url("image/向右箭头.png");
+    background-repeat: no-repeat;
+    background-position:3px center;
+}
+
+.menu1 li a{
+    color: black;
+    background-image:none;
+}
+
+.menu1 ul{
+    display: none;
+}

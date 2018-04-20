@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery</title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
+    <link href="app.css" rel="stylesheet">
+    <style>
+        #content,#flipshow,#fliphide{
+            padding: 5px;
+            text-align: center;
+            background-color: darkgreen;
+            border: solid 1px red;
+        }
+        #content{
+            padding: 50px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <p id="p1">Hello
+        <a>这是一个a标签</a>
+    </p>
+    <p><input type="text" id="input1" value="input"></p>
+    <p class="class1">Hello</p>
+    <button id="button1">hide</button>
+    <button id="button2">show</button>
+    <button id="button3">toggle</button>
+    <div style="width: 300px;height: 300px; background-color: chocolate">
+        <ul>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ul>
+    </div>
+    <button id="in">fadeIn</button>
+    <button id="out">fadeOut</button>
+    <button id="toggle">fadeToggle</button>
+    <div id="div1" style="width: 80px;height:80px;display: none; background-color: brown"></div>
+    <div id="div2" style="width: 80px;height:80px;display: none; background-color: yellow"></div>
+    <div id="div3" style="width: 80px;height:80px;display: none; background-color: green"></div>
+
+    <div id="flipshow">出现</div>
+    <div id="fliphide">隐藏</div>
+    <div id="content">Hello World</div>
+
+    <button id="button4">隐藏</button>
+    <p id="p2">Hello world</p>
+    <p id="p3">一次执行多个动作</p>
+
+    <input type="text" id="namevalue">
+    <br>
+    <button id="button5">Send</button>
+    结果:<span id="result"></span>
+
+
+
+</body>
+</html>
